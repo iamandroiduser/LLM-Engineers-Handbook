@@ -8,14 +8,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "~3.11"
-zenml = { version = "0.67.0", extras = ["server"] }
+zenml = { version = "0.94.6", extras = ["server"] }
 pymongo = "^4.6.2"
 click = "^8.0.1"
 loguru = "^0.7.2"
 rich = "^13.7.1"
 numpy = "^1.26.4"
 poethepoet = "0.29.0"
-datasets = "^3.0.1"
+datasets = ">=3.0.1,<6.0.0"
 
 # Digital data ETL
 selenium = "^4.21.0"
@@ -28,7 +28,7 @@ chromedriver-autoinstaller = "^0.6.4"
 # Feature engineering
 qdrant-client = "^1.8.0"
 langchain = "^0.2.11"
-sentence-transformers = "^3.0.0"
+sentence-transformers = ">=3,<7"
 
 # RAG
 langchain-openai = "^0.1.3"
